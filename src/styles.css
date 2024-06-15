@@ -4,6 +4,12 @@ body {
     font-family: "Noto Sans Display", sans-serif;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
 #content{
     display: flex;
     flex-direction: column;
@@ -52,4 +58,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#aboutPane {
+    padding: 2%;
+    color:#4C1D06;
+}
+
+#menuPane {
+    padding: 2%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #4C1D06;
+    text-align: center;
 }
